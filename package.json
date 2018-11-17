@@ -1,0 +1,36 @@
+{
+  "name": "barebones-npm-package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "npx babel src --out-dir dist",
+    "start": "npx babel src --watch --out-dir dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alekhurst/barebones-npm-package.git"
+  },
+  "keywords": [
+    "barebones",
+    "npm",
+    "package",
+    "node",
+    "module",
+    "template",
+    "boilerplate",
+    "babel"
+  ],
+  "author": "Alek Hurst",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alekhurst/barebones-npm-package/issues"
+  },
+  "homepage": "https://github.com/alekhurst/barebones-npm-package#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6"
+  }
+}
